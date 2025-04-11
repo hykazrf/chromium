@@ -4,7 +4,7 @@
 SCRIPT_PATH="$HOME/Linux.sh"
 
 # 显示 Logo
-curl -s https://raw.githubusercontent.com/ziqing888/logo.sh/main/logo.sh | bash
+# curl -s https://raw.githubusercontent.com/ziqing888/logo.sh/main/logo.sh | bash
 sleep 3
 
 # 检查 Docker 是否已安装
@@ -71,7 +71,7 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/London
-      - CHROME_CLI=https://x.com/qklxsqf #optional
+      - CHROME_CLI=https://outlook.com #optional
     volumes:
       - /root/chromium/config:/config
     ports:
